@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+a
+{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+a:visited
+{
+    color: blueviolet;    
+}
+
+body
+{
+    background-color: #f1f1f1;
+    font-size: 16px;
+    font-weight: normal;
+    /*font-family: 'Courier New', Courier, monospace, sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info
+{
+    display: flex;
+}
+
+@media (max-width: 700px)
+{
+    .info
+    {
+        display: block;
+        text-align: center;
+    }
+}
+
+.avatar
+{
+    width: 200px;
+    border-radius: 25px;
+    margin-right: 40px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25)
+}
+
+.info dt
+{
+    color: #6e7177;
+    margin: 0px;
+    /*font-style: italic;*/
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.container
+{
+    width: 90%;
+    margin: auto;
+}
+
+.card
+{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.card p
+{
+    color: #6e7177;
+}
+
+.bg_yellow
+{
+    background-color: rgb(240, 240, 215);
+}
+
+.bg_green
+{
+    background-color: rgb(217, 238, 217);
+}
+
+.bg_blue
+{
+    background-color: rgb(227, 227, 243);
+}
+
+.bg_red
+{
+    background-color: rgb(243, 226, 226);
+}
+
+.table
+{
+    width: 100%;
+    color: #6e7177;
+}
+
+.table th
+{
+    padding-bottom: 10px;
+    vertical-align: text-top;
+}
+
+.table td
+{
+    padding-bottom: 10px;
+    vertical-align: text-top;
+}
+
+.table td:nth-child(1),
+.table td:nth-child(2),
+.table td:nth-child(3)
+{
+    width: 15%;
+}
+
+.table2
+{
+    width: 50%;
+    min-width: 500px;
+}
+
+.table2 td input
+{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid #86898f;
+    color: #6e7177;
+    width: 100%;
+    font-family: inherit;
+}
+
+.table2 td:nth-child(1)
+{
+    width: 30%;
+    vertical-align: text-top;
+}
+
+.table2 td:nth-child()
+{
+    width: 70%;
+}
+
+.table2 td textarea
+{
+    width: 100%;
+    color: #6e7177;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-family: inherit;
+}
+
+.button
+{
+    background-color: #5f6266;
+    padding: 5px;
+    font-family: inherit;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover
+{
+    opacity: 0.85;
+}
