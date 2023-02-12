@@ -43,6 +43,7 @@ body
 {
     width: 200px;
     border-radius: 25px;
+    margin: 25px 0px;
     margin-right: 40px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25)
 }
@@ -65,7 +66,7 @@ body
 .card
 {
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 5px 30px;
     border-radius: 25px;
 }
 
@@ -122,7 +123,6 @@ body
 .table2
 {
     width: 50%;
-    min-width: 500px;
 }
 
 .table2 td input
@@ -172,4 +172,12 @@ body
 button:hover
 {
     opacity: 0.85;
+}
+
+@media (max-width: 700px)
+{
+    .table2
+    {
+        width: 100%;
+    }
 }
